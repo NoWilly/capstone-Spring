@@ -46,6 +46,7 @@ public class RestApiInsurancePolicyController {
         insuranceMap.put("id", insuranceClaim.getId());
         insuranceMap.put("claimNumber", insuranceClaim.getClaimNumber());
         insuranceMap.put("isPaid", insuranceClaim.getIsPaid());
+        insuranceMap.put("amount", insuranceClaim.getAmount());
         return insuranceMap;
     }
 }

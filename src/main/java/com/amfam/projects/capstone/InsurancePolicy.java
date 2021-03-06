@@ -66,5 +66,5 @@ public class InsurancePolicy {
 
     public Integer getInsuranceClaimCount() {
        return claims.size();
-   }
+    }
 }
